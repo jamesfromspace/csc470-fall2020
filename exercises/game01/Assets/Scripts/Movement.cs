@@ -5,14 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public Transform target;
-   
     public float speed = 4.0f;
-    
-
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
