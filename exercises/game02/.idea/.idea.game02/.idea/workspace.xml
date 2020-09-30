@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="693d218e-8b92-4549-aeb2-a393c33447ec" name="Default Changelist" comment="" />
+    <list default="true" id="693d218e-8b92-4549-aeb2-a393c33447ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game02/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game02/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/titleScreen.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/titleScreen.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Laser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Laser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/shootLaser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/shootLaser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stormtrooper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stormtrooper/materials.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stormtrooper/materials.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stormtrooper/model.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stormtrooper/model.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing/materials.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing/materials.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing/model.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing/model.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing/xwingPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XWing/xwingPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/beam.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/beam.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/beamPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/beamPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/level.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/level.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,20 +59,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/shootLaser.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/shootLaser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
         <option value="$PROJECT_DIR$/Assets/gameButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LaserBeamMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/shootLaser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -48,7 +94,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600301102706</updated>
       <workItem from="1600301108968" duration="885000" />
-      <workItem from="1600377728943" duration="17656000" />
+      <workItem from="1600377728943" duration="20312000" />
+      <workItem from="1600441110152" duration="6534000" />
+      <workItem from="1600716454662" duration="2572000" />
     </task>
     <servers />
   </component>

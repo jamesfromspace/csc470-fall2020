@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4404fb01-6cc6-4ce4-83ec-6ceb34f2c36b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/BlueWing.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlueWing.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChaseScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChaseScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FryPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FryPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FryScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FryScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RainDrop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RainDrop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RainDropMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RainDropMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/titleScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/titleScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/SnowtopCaps.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/SnowtopCaps.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango/INSTRUCTIONS &amp; LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango/INSTRUCTIONS &amp; LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango/TEXAS-TANGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango/TEXAS-TANGO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango/TEXAT BOLD PERSONAL USE___.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/texas_tango/TEXAT BOLD PERSONAL USE___.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/fries.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/fries/French_Fries_01.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/fries/French_Fries_01.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/fries/French_Fries_01.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/fries/French_Fries_01.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/gator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/gator/materials.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/gator/materials.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/gator/model.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/gator/model.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hprsuluFTIlKGcL11wGv72P08s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4404fb01-6cc6-4ce4-83ec-6ceb34f2c36b" name="Default Changelist" comment="" />
+      <created>1600719084474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600719084474</updated>
+      <workItem from="1600719091771" duration="3255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

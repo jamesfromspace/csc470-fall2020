@@ -1,34 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-	float speed;
-	
-
-	// This value is set in the Unity editor by dragging the Text object
-	// into the slot in the inspector.
-	
-
+    public float speed = 0;
+   
+    private Rigidbody rb;
+    private float movementX;
+    private float movementY;
+    
     // Start is called before the first frame update
     void Start()
     {
-    
+        rb = GetComponent<Rigidbody>();
     }
+    void OnMove(InputValue movementValue)
+    {
+        Vector2 movementVector = movementValue.Get<Vector2>();
 
-    // Update is called once per frame
-	void Update()
-	{
-		speed = 15.0f;
-     
-    	if (Input.GetKey(KeyCode.D)) {
-       		transform.Translate(Vector3.right * speed * Time.deltaTime);
-    	}
-		if (Input.GetKey(KeyCode.A)) {
-       		transform.Translate(Vector3.left * speed * Time.deltaTime);
-		}
-		
-	}
+        movementX = movementVector.x;
+        movementY = movementVector.y;
+    }
+    void FixedUpdate()
+    {
+        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+        
+        rb.AddForce(movement * speed);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Stormtroopers")) 
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
 }
