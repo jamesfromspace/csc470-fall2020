@@ -4,11 +4,13 @@ using UnityEngine;
 
  public class CameraFollow : MonoBehaviour {
       public GameObject player;
-      public float cameraHeight = 20.0f;
+      public float cameraHeight = 4.0f;
+	  public float cameraDepth = -5.0f;
   
       void Update() {
           Vector3 pos = player.transform.position;
-          pos.z += cameraHeight;
+          pos.y += cameraHeight;
+          pos.z += cameraDepth;
           transform.position = pos;
       }
   }
