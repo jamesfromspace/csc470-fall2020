@@ -28,6 +28,11 @@ public class Raycast : MonoBehaviour {
         if (Input.GetButtonDown("Fire1") && Time.time > nextFire) 
         {
             
+            StartCoroutine (ShotEffect());
+            
+            
+            
+            
             nextFire = Time.time + fireRate;
 
             
@@ -63,5 +68,17 @@ public class Raycast : MonoBehaviour {
                 laserLine.SetPosition (1, rayOrigin + (fpsCam.transform.forward * weaponRange));
             }
         }
+    }
+    
+    private IEnumerator ShotEffect()
+    {
+        // Turn on our line renderer
+        laserLine.enabled = true;
+
+        //Wait for .07 seconds
+        yield return shotDuration;
+
+        // Deactivate our line renderer after waiting
+        laserLine.enabled = false;
     }
 }
