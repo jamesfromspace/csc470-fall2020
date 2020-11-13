@@ -50,12 +50,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\Target.cs" />
+     <Compile Include="Assets\Script\StartGame.cs" />
      <Compile Include="Assets\Script\Raycast.cs" />
      <Compile Include="Assets\Script\RaycastView.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
-     <Compile Include="Assets\Script\GameManager.cs" />
-     <Compile Include="Assets\Script\StartGame.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/james/Desktop/csc470-fall2020/exercises/game05/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
