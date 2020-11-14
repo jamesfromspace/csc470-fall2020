@@ -8,11 +8,11 @@ public class GameManager : MonoBehaviour
 {
 	
 	
-	public float timeRemaining = 30.0f;
-	public bool timerIsRunning = false;
+	//public float timeRemaining = 30.0f;
+	//public bool timerIsRunning = false;
 	
 	public Text timeText;
-	public Text scoreText;
+	//public Text scoreText;
 
 	//public int score;
 	
@@ -23,25 +23,25 @@ public class GameManager : MonoBehaviour
 		// Initialize the score text.
 		//score = 1;
 		//IncreaseScore();
-		timerIsRunning = true;
+		//timerIsRunning = true;
 		
     }
 
     // Update is called once per frame
-    void Update()
+   /* void Update()
     {
 	    if (timerIsRunning)
 	    {
-		    if (timeRemaining > 0)
+		    if (timeRemaining > 0.0f)
 		    {
 			    timeRemaining -= Time.deltaTime;
 			    DisplayTime(timeRemaining);
 		    }
 		    else
 		    {
-			    timeRemaining = 0;
+			    timeRemaining = 0.0f;
 			    timerIsRunning = false;
-			    SceneManager.LoadScene("GameOver");
+			    //SceneManager.LoadScene("GameOver");
 		    }
 	    }
     }
