@@ -178,10 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eef65a10f969347558d6c5becf72096c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 30
-  timerIsRunning: 0
   timeText: {fileID: 0}
-  scoreText: {fileID: 0}
 --- !u!1 &60486576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,10 +4039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eef65a10f969347558d6c5becf72096c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 30
-  timerIsRunning: 0
   timeText: {fileID: 1454471886}
-  scoreText: {fileID: 156011250}
 --- !u!1 &1938860288
 GameObject:
   m_ObjectHideFlags: 0
