@@ -3,7 +3,7 @@
 Description: The core mechanic of this game is a First Person Shooter (Zombie style) game where the players goal is to kill as many zombies as possible and avoid being overrun by the zombie mob. The player will lose health each time they come in contact with a zombie. The main goal of the game is to last as long as possible fending off the zombies and accumulate the highest score in the leaderboards. 
 
 
-Inline-style: 
+Progress so far: 
 ![alt text](https://github.com/jamesfromspace/csc470-fall2020/blob/master/exercises/final/FinalGame.png "final game screenshot")
 
 
