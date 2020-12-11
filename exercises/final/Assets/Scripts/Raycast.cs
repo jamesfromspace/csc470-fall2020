@@ -84,7 +84,7 @@ public class Raycast : MonoBehaviour {
                 laserLine.SetPosition (1, rayOrigin + (fpsCam.transform.forward * weaponRange));
             }
         }
-        if (count >= 5)
+        if (count >= 40)
         {
             SceneManager.LoadScene("Winner");
         }
