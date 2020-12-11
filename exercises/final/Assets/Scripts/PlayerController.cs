@@ -13,8 +13,16 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] bool lockCursor = true;
 
+    public float playerHealth;
+
+    float enemyDamage = 0.1f;
     float cameraPitch = 0.0f;
-    float velocityY = 0.0f;
+    float yVelocity = 0.0f;
+    float jumpForce = 2.0f;
+    float gravityModifier = 0.2f;
+
+    bool prevIsGrounded = true;
+
     CharacterController controller = null;
 
     Vector2 currentDir = Vector2.zero;
@@ -25,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        playerHealth = 1.0f;
+
         controller = GetComponent<CharacterController>();
         if(lockCursor)
         {
@@ -37,6 +47,44 @@ public class PlayerController : MonoBehaviour
     {
         UpdateMouseLook();
         UpdateMovement();
+
+        //--- DEALING WITH GRAVITY ---
+		if (!controller.isGrounded)
+        { //If we go in this block of code, cc.isGrounded is false (that's what the ! does)
+			//If we're not on the ground, apply "gravity" to yVelocity
+			yVelocity = yVelocity + Physics.gravity.y * gravityModifier * Time.deltaTime;
+
+			//If we are moving upward (yVelocity > 0), and the player has released the jump button
+			//start falling downward (by setting the yVelocity to 0)
+			if (Input.GetKeyUp(KeyCode.Space) && yVelocity > 0) 
+            {
+				yVelocity = 0;
+			}
+		} 
+        else 
+        {
+			if (!prevIsGrounded) {
+				//By being in this if statement, we know we JUST landed.
+				//NOTE: We know we just landed because cc.isGrounded is true (meaning
+				//		on the last cc.Move() call we collided with something. This condition also
+				//		required previousIsGroundedValue to be false which means we were not colliding
+				//		with the ground on the previous Update.
+
+				//Set the yVelocity to zero right when we hit the ground so that we don't accumulate 
+				//a bunch of yVelocity. The CharacterController will prevent us from moving through
+				//the floor, but we are managing the yVelocity ourselves, so we need to make sure
+				//that it is zero when we start to fall. This is where we do that.
+				yVelocity = 0;
+			}
+
+			//JUMP. When the player presses space, set yVelocity to the jump force. This will immediately
+			//make the player start moving upwards, and gravity will start slowing the movement upward
+			//and eventually make the player hit the ground (thus landing in the 'if' statment above)
+			if (Input.GetKeyDown(KeyCode.Space)) 
+            {
+				yVelocity = jumpForce;
+            }
+		}
     }
 
     void UpdateMouseLook()
@@ -60,13 +108,23 @@ public class PlayerController : MonoBehaviour
         currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
 
         if(controller.isGrounded)
-            velocityY = 0.0f;
+            yVelocity = 0.0f;
 
-        velocityY += gravity * Time.deltaTime;
+        yVelocity += gravity * Time.deltaTime;
 		
-        Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
+        Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * yVelocity;
 
         controller.Move(velocity * Time.deltaTime);
 
+
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag=="Enemy")
+        {
+            playerHealth -= enemyDamage;
+            Debug.Log(playerHealth);
+
+        }
     }
 }

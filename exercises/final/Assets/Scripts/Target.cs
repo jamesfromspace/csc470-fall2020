@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class Target : MonoBehaviour {
 
     //GameManager gm;
-    public int currentHealth = 1;
+    public int currentHealth = 3;
+
     
     void Start()
     {
-        //gm = GameObject.Find("GameManagerObj").GetComponent<GameManager>();
+      
     }
 
     // Update is called once per frame
@@ -27,7 +29,7 @@ public class Target : MonoBehaviour {
         {
             
             gameObject.SetActive (false);
-            //gm.IncreaseScore();
+            
         }
     }
 }

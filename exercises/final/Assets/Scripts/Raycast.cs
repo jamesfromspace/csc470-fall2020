@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class Raycast : MonoBehaviour {
 
@@ -8,22 +11,35 @@ public class Raycast : MonoBehaviour {
     public float weaponRange = 50f;                                    
     public float hitForce = 100f;                                      
     public Transform gunEnd;                                           
+    public TextMeshProUGUI scoreText;
 
+    private int count;
     private Camera fpsCam;                                               
     private WaitForSeconds shotDuration = new WaitForSeconds(0.07f);
-    private LineRenderer laserLine;                                       
+    private LineRenderer laserLine;       
+    private AudioSource gunAudio;		                                
     private float nextFire;                                               
 
     void Start () 
     {
-        
+        count = 0;
+        SetScoreText();
         laserLine = GetComponent<LineRenderer>();
         fpsCam = GetComponentInParent<Camera>();
+        gunAudio = GetComponent<AudioSource>();
     }
 
-
+    void SetScoreText()
+    {
+        scoreText.text = "Score: " + count.ToString();
+    }
+    
     void Update () 
     {
+
+
+
+
         // Check if player has fired weapon
         if (Input.GetButtonDown("Fire1") && Time.time > nextFire) 
         {
@@ -52,9 +68,12 @@ public class Raycast : MonoBehaviour {
                 if (health != null)
                 {
                     health.Damage (gunDamage);
+                    count = count + 1;
+                    SetScoreText();
                 }
 
-                
+
+
                 if (hit.rigidbody != null)
                 {
                     hit.rigidbody.AddForce (-hit.normal * hitForce);
@@ -65,12 +84,20 @@ public class Raycast : MonoBehaviour {
                 laserLine.SetPosition (1, rayOrigin + (fpsCam.transform.forward * weaponRange));
             }
         }
+        if (count >= 5)
+        {
+            SceneManager.LoadScene("Winner");
+        }
     }
     
+   
+
    	private IEnumerator ShotEffect()
     {
         // Turn on our line renderer
         laserLine.enabled = true;
+
+        gunAudio.Play ();
 
         //Wait for .07 seconds
         yield return shotDuration;
